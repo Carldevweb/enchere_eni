@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.rectangle {
+	width:200px;
+	height:200px;
+	background-color : grey;
+	display : flex;
+	justify-content : space-around;
+}
+
+h1 {
+	display : flex;
+	justify-content : center;
+} 
+
+.article {
+	display : flex;
+	justify-content : center;
+}
+
+.center {
+	display : flex;
+	justify-content : center;
+}
+
+.retrait {
+	display : flex ;
+	justify-content : space-beetween;
+	justify-content : center
+	
+}
+
+.redirection {
+	display : flex;
+	justify-content : center;
+	justify-content : space-beetween;
+	flex-wrap : nowrap;
+}

@@ -1,0 +1,120 @@
+body
+{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+}
+
+h1
+{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+label
+{
+  display: inline-block;
+  width: 200px;
+}
+
+
+.container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+  
+.left 
+{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-right: 5em;
+}
+  
+.right 
+{
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-left: 5em;
+}
+
+.password
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.newpassword {
+ margin-right: 10em;
+}
+
+#hidden{
+  visibility: hidden;
+}
+
+input 
+{
+  margin-left: 70px;
+  padding: 5px 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.btncreate a, .btncancel a
+{
+  text-decoration: none;
+  padding: 25px 75px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10em;
+  color : black;
+}
+
+.btncreate a:hover, .btncancel a:hover
+{
+  background-color: grey;
+}
+.btncreate, .btncancel
+{
+  margin-top: 5em;
+  display : flex;
+  flex-direction : row;
+  flex-wrap : wrap;
+}
+
+.credits
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  margin-right : 55.3em;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
