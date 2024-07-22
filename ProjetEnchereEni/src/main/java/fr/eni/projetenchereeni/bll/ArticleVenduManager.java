@@ -26,11 +26,9 @@ public static ArticleVendu vente (String nomArticle, String description, String 
 	 vente.setDescription(description);
 	 vente.setPrixVente(dateFinEnchere);
 	 vente.setPrixInitial(dateDebutEnchere);
-	
 	 daoArticleVendu.insert(vente);
 	 
 	 return vente;
-	 
 }
 
 public static ArticleVendu selectByID (String nomArticle, String description, Date dateDebutEnchere, Date DateFinEnchere,int prixInitial,int prixVente) throws BusinessExceptionDAL {
@@ -46,11 +44,6 @@ public static ArticleVendu selectByID (String nomArticle, String description, Da
 	
 	daoArticleVendu.selectById(selectByID);
 	
-	return selectByID;
-	
-	
-	
-	
-}
-
+	return selectByID;	
+	}
 }
